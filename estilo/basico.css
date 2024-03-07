@@ -1,8 +1,8 @@
 .btn {
-    background-color: blue;
-    color: white;
+    background-color: rgb(30, 170, 60);
+    color: rgb(224, 23, 23);
     font-size: 64px;
 }
 body {
-    background-color: yellow;
+    background-color: rgb(207, 3, 129);
 }
