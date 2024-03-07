@@ -2,7 +2,11 @@
     background-color: rgb(30, 170, 60);
     color: rgb(224, 23, 23);
     font-size: 64px;
+    width: 80%;
+    height: 30%;
+    
 }
+
 body {
     background-color: rgb(207, 3, 129);
 }
@@ -32,6 +36,14 @@ body {
         font-size: 55px;
         color: chocolate;
     }
+    .btn{
+        margin-top: 0%;
+        width: 70px;
+        font-size: 16px;
+    }
+    .conteudo{
+        text-align: right;
+    }
 }
 @media (min-width:1228px){
     .barra{
@@ -46,6 +58,10 @@ body {
         display: inline;
         font-size: 70px;
         color: darkcyan;
+    }
+    .conteudo{
+        text-align: left;
+        
     }
 }
   
