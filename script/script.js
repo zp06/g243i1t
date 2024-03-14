@@ -1,4 +1,9 @@
 function abrir_aba(num){
+    for(let i = 1; i <= 5; i++){
+        let id_btn = "btn"+i;
+        document.getElementById(id_btn).disabled = false;
+
+    }
 if(num == "1"){
     document.getElementById("btn1").disabled = true;
 }
